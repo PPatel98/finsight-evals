@@ -1,0 +1,78 @@
+{
+    "dataset_name": "Apple 10-K 2025 Evaluation Set",
+    "company": "Apple",
+    "filing_year": "2025",
+    "collection_id": "doc_e17c5868e083",
+    "questions": [
+        {
+            "id": "q1",
+            "question": "What was Apple's total net sales for fiscal year 2025?",
+            "expected_answer": "Apple's total net sales for fiscal year 2025 were approximately 416 billion dollars",
+            "category": "financials",
+            "difficulty": "easy"
+        },
+        {
+            "id": "q2",
+            "question": "What are the main product and service categories Apple reports revenue for?",
+            "expected_answer": "Apple reports revenue across iPhone, Mac, iPad, Wearables Home and Accessories, and Services segments",
+            "category": "business_segments",
+            "difficulty": "easy"
+        },
+        {
+            "id": "q3",
+            "question": "What does Apple identify as its biggest risk factors?",
+            "expected_answer": "Apple identifies risks including global economic conditions, supply chain concentration in Asia, dependence on iPhone revenue, and intense competition across its markets",
+            "category": "risk_factors",
+            "difficulty": "medium"
+        },
+        {
+            "id": "q4",
+            "question": "How does Apple describe its approach to artificial intelligence?",
+            "expected_answer": "Apple describes integrating AI features across its products and services including Apple Intelligence, with a focus on on-device processing and privacy",
+            "category": "strategy",
+            "difficulty": "medium"
+        },
+        {
+            "id": "q5",
+            "question": "What was Apple's revenue from the Services segment in fiscal year 2025?",
+            "expected_answer": "Apple's Services segment generated approximately 109 billion dollars in revenue in fiscal year 2025",
+            "category": "financials",
+            "difficulty": "medium"
+        },
+        {
+            "id": "q6",
+            "question": "In which geographic regions does Apple generate the most revenue outside the United States?",
+            "expected_answer": "Apple generates significant revenue in Europe, Greater China, and Japan outside the United States",
+            "category": "geography",
+            "difficulty": "medium"
+        },
+        {
+            "id": "q7",
+            "question": "What is Apple's fiscal year end date?",
+            "expected_answer": "Apple's fiscal year ends on the last Saturday of September each year",
+            "category": "general",
+            "difficulty": "easy"
+        },
+        {
+            "id": "q8",
+            "question": "How much did Apple spend on research and development in fiscal year 2025?",
+            "expected_answer": "Apple spent approximately 32 billion dollars on research and development in fiscal year 2025",
+            "category": "financials",
+            "difficulty": "hard"
+        },
+        {
+            "id": "q9",
+            "question": "What does Apple say about its share repurchase program?",
+            "expected_answer": "Apple has an ongoing share repurchase program and returned significant capital to shareholders through buybacks and dividends",
+            "category": "capital_allocation",
+            "difficulty": "medium"
+        },
+        {
+            "id": "q10",
+            "question": "How does Apple describe competition in its markets?",
+            "expected_answer": "Apple describes its markets as highly competitive with frequent product introductions and rapid technological change, facing competition from companies with significant resources",
+            "category": "risk_factors",
+            "difficulty": "medium"
+        }
+    ]
+}

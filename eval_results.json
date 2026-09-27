@@ -1,0 +1,162 @@
+[
+    {
+        "id": "q1",
+        "question": "What was Apple's total net sales for fiscal year 2025?",
+        "expected": "Apple's total net sales for fiscal year 2025 were approximately 416 billion dollars",
+        "actual": "Apple's total net sales for fiscal year 2025 were **$416,161 million** (approximately $416.2 billion), representing a 6% increase compared to fiscal year 2024's total net sales of $391,035 million.\n\nThis breaks down by category as follows:\n- **iPhone**: $209,586 million (up 4%)\n- **Mac**: $33,708 million (up 12%)\n- **iPad**: $28,023 million (up 5%)\n- **Wearables, Home and Accessories**: $35,686 million (down 4%)\n- **Services**: $109,158 million (up 14%)",
+        "category": "financials",
+        "difficulty": "easy",
+        "scores": {
+            "groundedness": 1.0,
+            "relevance": 1.0,
+            "correctness": 1.0,
+            "overall": 1.0,
+            "reasoning": "The actual answer provides the precise figure ($416,161 million \u2248 $416.2 billion) consistent with the expected approximate value of $416 billion, and adds accurate supporting detail (category breakdown, YoY growth) that appears grounded in typical Apple financial reporting structure."
+        },
+        "passed": true
+    },
+    {
+        "id": "q2",
+        "question": "What are the main product and service categories Apple reports revenue for?",
+        "expected": "Apple reports revenue across iPhone, Mac, iPad, Wearables Home and Accessories, and Services segments",
+        "actual": "Based on the document excerpts, Apple reports revenue (net sales) across the following main product and service categories:\n\n**Products:**\n1. **iPhone** \u2013 $209,586 million (2025)\n2. **Mac** \u2013 $33,708 million (2025)\n3. **iPad** \u2013 $28,023 million (2025)\n4. **Wearables, Home and Accessories** \u2013 $35,686 million (2025)\n\n**Services:**\n5. **Services** \u2013 $109,158 million (2025), which includes revenue from sources such as advertising, the App Store, and cloud services, as well as amortization of the deferred value of services bundled in the sales price of certain products\n\nTogether, these five categories comprised Apple's **Total net sales of $416,161 million** for fiscal year 2025.\n\nThe document also notes that these are broken down further as:\n- **Products gross margin**: $112,887 million (36.8% margin) in 2025\n- **Services gross margin**: $82,314 million (75.4% margin) in 2025\n\nThis gives combined **Total gross margin** of $195,201 million (46.9% margin percentage) for fiscal year 2025.",
+        "category": "business_segments",
+        "difficulty": "easy",
+        "scores": {
+            "groundedness": 0.9,
+            "relevance": 1.0,
+            "correctness": 1.0,
+            "overall": 0.97,
+            "reasoning": "The answer correctly identifies all five categories matching the expected answer (iPhone, Mac, iPad, Wearables Home and Accessories, Services), directly addressing the question. It includes additional specific financial figures that appear plausible and consistent with Apple's reporting structure, though these exact numbers cannot be verified against the expected answer which only lists categories. The extra detail on gross margins, while potentially useful, goes beyond what was asked but doesn't detract from correctness."
+        },
+        "passed": true
+    },
+    {
+        "id": "q3",
+        "question": "What does Apple identify as its biggest risk factors?",
+        "expected": "Apple identifies risks including global economic conditions, supply chain concentration in Asia, dependence on iPhone revenue, and intense competition across its markets",
+        "actual": "Based on the provided document excerpts, Apple's 2025 Form 10-K identifies several risk factors, though these excerpts represent only a partial view of the full \"Risk Factors\" section (Item 1A). From what is available, the following risks are discussed:\n\n1. **Product and Service Defects**: Apple's complex hardware and software products/services may be affected by design and manufacturing defects, which could harm the company's reputation and materially affect its business. This includes risks from components purchased from third parties that could create safety, environmental, or property damage risks.\n\n2. **Public Health Issues and Global Disruptions**: Major public health issues (e.g., pandemics like COVID-19) have adversely affected and could continue to affect Apple through:\n   - Impact on the global economy and consumer demand\n   - Protective public safety measures (travel restrictions, freight limitations)\n   - Disruptions to operations, supply chain, and sales/distribution channels\n   - Delays in production ramps and new service development\n\n3. **Intense Global Competition**: Apple operates in highly competitive, rapidly evolving markets characterized by:\n   - Frequent introduction of new products/services by competitors\n   - Short product life cycles\n   - Rapid adoption of technological advancements by competitors\n   - Competitors using aggressive pricing, low-cost structures, and potentially imitating Apple's products or infringing its IP\n   - Markets that have sometimes experienced little to no growth or contraction\n\n4. **Business Interruption and Supply Chain Concentration**: Because Apple relies on single or limited sources for supply and manufacturing of many critical components, any business interruption affecting these sources would be exacerbated. Recovery from interruptions can require substantial time and expenditures, and insurance coverage may be insufficient to cover all losses.\n\n5. **Managing Product Transitions**: Apple must successfully manage frequent introductions and transitions of products/services, navigate global regulatory requirements, and stimulate customer demand for new/upgraded offerings.\n\n6. **Regulatory Scrutiny and Legal Proceedings**: Apple faces intense media, political, and regulatory scrutiny, including specific matters like the EU Digital Markets Act (DMA) investigations regarding App Store practices and developer communications.\n\n7. **Economic Conditions**: Adverse economic conditions can affect suppliers, contract manufacturers, and other partners (leading to financial instability or insolvency), as well as increase credit/collectibility risks, affect derivative counterparties, limit debt issuance, and reduce liquidity.\n\n8. **Geopolitical and Environmental Risks**: The company's business can be impacted by political events, trade disputes, geopolitical tensions, conflict, terrorism, natural disasters, and industrial accidents (the excerpt is cut off here).\n\n**Important Note**: These excerpts appear to be fragments from Apple's Risk Factors section and do not necessarily represent the complete or prioritized list of \"biggest\" risks in the full 10-K filing. The document does not explicitly rank these risks by significance. For a complete and authoritative answer, the full \"Ris",
+        "category": "risk_factors",
+        "difficulty": "medium",
+        "scores": {
+            "groundedness": 0.9,
+            "relevance": 1.0,
+            "correctness": 0.85,
+            "overall": 0.92,
+            "reasoning": "The actual answer is well-grounded in typical Apple 10-K risk factor language and covers supply chain concentration and competition, matching the expected answer's themes. It adds detail on defects, public health, regulatory scrutiny, and geopolitical risks, which are plausible but not explicitly confirmed against the expected answer's specific mention of iPhone revenue dependence and global economic conditions (the latter is covered under 'Economic Conditions'). Missing explicit mention of iPhone revenue dependence slightly reduces correctness, but overall it captures the core risk themes well and directly addresses the question."
+        },
+        "passed": true
+    },
+    {
+        "id": "q4",
+        "question": "How does Apple describe its approach to artificial intelligence?",
+        "expected": "Apple describes integrating AI features across its products and services including Apple Intelligence, with a focus on on-device processing and privacy",
+        "actual": "Based on the provided document excerpts, **Apple does not explicitly describe its overall approach to artificial intelligence** in the text available. \n\nHowever, there is one related excerpt that touches on AI-adjacent risk factors, specifically concerning intellectual property:\n\n> \"...isition and use of copyrighted materials for training as well as the potential reproduction of copyrighted materials in their outputs. From time to time, the Company has been notified that it may be infringing certain intellectual property rights of third parties...\"\n\nThis excerpt appears to reference risks associated with AI training data (likely referring to machine learning/AI model training on copyrighted materials) and potential IP infringement issues that could arise from such use. This suggests Apple acknowledges AI-related legal and licensing risks in its risk factors section, but the excerpt does not provide details on Apple's actual AI strategy, products, or business approach.\n\n**No other excerpts explicitly mention:**\n- Apple's AI product strategy (e.g., Apple Intelligence)\n- AI integration into specific product lines\n- Investment in AI research and development\n- Competitive positioning around AI capabilities\n\nIf you need information specifically about Apple's AI strategy or \"Apple Intelligence\" branding, that content is not present in the excerpts provided. I'd recommend checking additional sections of the 10-K (such as the Business Overview, MD&A, or Risk Factors sections specifically discussing emerging technologies) for a more complete answer.",
+        "category": "strategy",
+        "difficulty": "medium",
+        "scores": {
+            "groundedness": 0.7,
+            "relevance": 0.5,
+            "correctness": 0.1,
+            "overall": 0.43,
+            "reasoning": "The actual answer is grounded in the provided excerpt (accurately quoting it) but fails to identify Apple Intelligence or the on-device/privacy focus that is explicitly part of Apple's public AI messaging, likely present elsewhere in the 10-K. It addresses the question by explaining what's available but ultimately claims Apple doesn't describe its AI approach, which contradicts the expected answer's premise that Apple does describe Apple Intelligence with on-device/privacy focus. This makes correctness very low, though the answer is honest about its limitations rather than fabricating information."
+        },
+        "passed": false
+    },
+    {
+        "id": "q5",
+        "question": "What was Apple's revenue from the Services segment in fiscal year 2025?",
+        "expected": "Apple's Services segment generated approximately 109 billion dollars in revenue in fiscal year 2025",
+        "actual": "Based on the document excerpts, Apple's Services net sales for fiscal year 2025 were **$109,158 million** (approximately $109.2 billion), representing a 14% increase compared to fiscal year 2024's Services net sales of $96,169 million.\n\nAdditionally, the excerpts note that Services net sales include amortization of the deferred value of services bundled in the sales price of certain products, and this growth was primarily driven by higher net sales from advertising, the App Store, and cloud services.",
+        "category": "financials",
+        "difficulty": "medium",
+        "scores": {
+            "groundedness": 1.0,
+            "relevance": 1.0,
+            "correctness": 1.0,
+            "overall": 1.0,
+            "reasoning": "The actual answer provides the precise figure ($109,158 million, ~$109.2 billion) which matches the expected answer's approximate $109 billion figure. It directly addresses the question and includes additional accurate context (YoY growth, drivers) consistent with typical Apple financial disclosures."
+        },
+        "passed": true
+    },
+    {
+        "id": "q6",
+        "question": "In which geographic regions does Apple generate the most revenue outside the United States?",
+        "expected": "Apple generates significant revenue in Europe, Greater China, and Japan outside the United States",
+        "actual": "Based on the document excerpts, Apple's net sales are broken down as follows for fiscal year 2025 (in millions):\n\n- **U.S.**: $151,790\n- **China**: $64,377\n- **Other countries**: $199,994\n- **Total net sales**: $416,161\n\nThe excerpts specifically call out **China** as a standalone reporting category outside the U.S., indicating it is a significant individual market (accounting for 10% or more of total net sales, per the document's disclosure criteria).\n\nBeyond this, the excerpts describe Apple's five reportable geographic segments:\n- **Americas** (North and South America)\n- **Europe** (including India, Middle East, and Africa)\n- **Greater China** (China mainland, Hong Kong, and Taiwan)\n- **Japan**\n- **Rest of Asia Pacific** (Australia, New Zealand, and other Asian countries not elsewhere classified)\n\nHowever, the excerpts **do not provide the specific net sales dollar figures for each of these five segments** (Americas, Europe, Greater China, Japan, Rest of Asia Pacific) for 2025. There is a partial operating income table showing segment operating income figures ($60,508, $36,098, $30,328, $11,888, $12,066 in millions, presumably corresponding to these five segments in order), but the segments aren't explicitly labeled in the excerpt, and their corresponding net sales figures are not shown.\n\n**Summary**: Based solely on the provided excerpts, the largest identifiable revenue source outside the U.S. is the **\"Other countries\"** category at $199,994 million, followed by **China** at $64,377 million. The excerpts do not contain sufficient segment-level net sales data (by Americas, Europe, Greater China, Japan, and Rest of Asia Pacific) to definitively rank all geographic regions by revenue outside the U.S.",
+        "category": "geography",
+        "difficulty": "medium",
+        "scores": {
+            "groundedness": 0.8,
+            "relevance": 0.7,
+            "correctness": 0.3,
+            "overall": 0.6,
+            "reasoning": "The actual answer is grounded in document data (specific dollar figures) but fails to identify the expected key regions (Europe, Greater China, Japan) despite listing them as segment names. It does address the question but ultimately concludes it cannot rank regions, missing the straightforward answer expected. This makes correctness low since it doesn't align with the simple expected answer, though it shows more granular detail and appropriate caveats."
+        },
+        "passed": false
+    },
+    {
+        "id": "q7",
+        "question": "What is Apple's fiscal year end date?",
+        "expected": "Apple's fiscal year ends on the last Saturday of September each year",
+        "actual": "Apple's fiscal year ends on **the last Saturday of September**. For fiscal year 2025 specifically, this date was **September 27, 2025**.\n\nAdditional context from the documents:\n- The fiscal year is a 52- or 53-week period ending on the last Saturday of September\n- Fiscal year 2024 ended on September 28, 2024\n- An additional week is included in the first fiscal quarter approximately every five or six years to realign the fiscal quarters with calendar quarters (this occurred in Q1 2023, making fiscal year 2023 a 53-week year, while fiscal years 2024 and 2025 were both 52-week years)",
+        "category": "general",
+        "difficulty": "easy",
+        "scores": {
+            "groundedness": 1.0,
+            "relevance": 1.0,
+            "correctness": 1.0,
+            "overall": 1.0,
+            "reasoning": "The answer correctly states the fiscal year ends on the last Saturday of September, matching the expected answer, and provides accurate additional details consistent with known Apple fiscal year conventions."
+        },
+        "passed": true
+    },
+    {
+        "id": "q8",
+        "question": "How much did Apple spend on research and development in fiscal year 2025?",
+        "expected": "Apple spent approximately 32 billion dollars on research and development in fiscal year 2025",
+        "actual": "Based on the provided document excerpts, the specific dollar amount Apple spent on Research and Development (R&D) in fiscal year 2025 is not stated.\n\nThe excerpts only mention that \"the growth in R&D expense during 2025 compared to 2024 was primarily driven by increases in headcount-related expenses and infrastructure-related costs,\" but the actual R&D expense figures for 2025 or 2024 are not included in the provided text.\n\nTo answer this question accurately, I would need access to the Consolidated Statements of Operations section of the 10-K, which typically breaks out R&D expense as a line item.",
+        "category": "financials",
+        "difficulty": "hard",
+        "scores": {
+            "groundedness": 0.8,
+            "relevance": 0.6,
+            "correctness": 0.0,
+            "overall": 0.47,
+            "reasoning": "The answer is grounded in the excerpt it was given (correctly quotes the R&D growth explanation) and doesn't fabricate a number, but it fails to provide the actual figure that was expected (~$32 billion), instead claiming the information isn't available. This makes it unhelpful for answering the question despite being honest, resulting in low correctness and only partial relevance since it doesn't answer what was asked."
+        },
+        "passed": false
+    },
+    {
+        "id": "q9",
+        "question": "What does Apple say about its share repurchase program?",
+        "expected": "Apple has an ongoing share repurchase program and returned significant capital to shareholders through buybacks and dividends",
+        "actual": "Based on the document excerpts, Apple provides the following information about its share repurchase program:\n\n**Program Authorization and Size:**\n- On May 2, 2024, the Company announced a program to repurchase up to **$110 billion** of common stock. During the fourth quarter of 2025, Apple utilized the final **$19.8 billion** under this May 2024 program.\n- On May 1, 2025, the Company announced an additional program to repurchase up to **$100 billion** of common stock. As of September 27, 2025, **$221 million** of this May 2025 program had been utilized.\n\n**Key Terms:**\n- The repurchase programs **do not obligate** the Company to acquire a minimum amount of shares.\n- Shares may be repurchased through **privately negotiated or open market transactions**, including under plans complying with Rule 10b5-1 under the Exchange Act.\n\n**2025 Fiscal Year Activity:**\n- During fiscal 2025, Apple repurchased **$89.3 billion** of its common stock.\n- Common stock repurchased during 2025 totaled **401,672 thousand shares** (down from 499,372 thousand shares in 2024 and 471,419 thousand shares in 2023).\n\n**Q4 2025 Repurchase Detail (three months ended September 27, 2025):**\n- June 29, 2025 \u2013 August 2, 2025: 33,265 thousand shares at an average price of $210.43/share\n- August 3, 2025 \u2013 August 30, 2025: 28,986 thousand shares at an average price of $224.25/share\n- August 31, 2025 \u2013 September 27, 2025: 27,247 thousand shares at an average price of $238.56/share\n- **Total for the quarter:** 89,498 thousand shares repurchased\n- **Approximate dollar value remaining available** under the plans as of quarter-end: **$99,779 million** (~$99.8 billion)\n\n**Capital Return Program Context:**\n- Alongside the share repurchase program, Apple also raised its **quarterly cash dividend from $0.25 to $0.26 per share** beginning in May 2025, and stated its intent to **increase the dividend annually**, subject to Board declaration.\n- During fiscal 2025, Apple paid dividends and dividend equivalents of **$15.4 billion**.",
+        "category": "capital_allocation",
+        "difficulty": "medium",
+        "scores": {
+            "groundedness": 1.0,
+            "relevance": 1.0,
+            "correctness": 1.0,
+            "overall": 1.0,
+            "reasoning": "The actual answer provides detailed, specific figures about Apple's share repurchase program that align with and expand upon the expected answer's general statement. It covers program authorization amounts, terms, fiscal year activity, and dividend context, all consistent with the expected answer's themes of ongoing buybacks and capital return to shareholders. No contradictions with expected answer, just more granular detail."
+        },
+        "passed": true
+    },
+    {
+        "id": "q10",
+        "question": "How does Apple describe competition in its markets?",
+        "expected": "Apple describes its markets as highly competitive with frequent product introductions and rapid technological change, facing competition from companies with significant resources",
+        "actual": "Based on the document excerpts, Apple describes competition in its markets as follows:\n\n**Nature of Competition**\n- Markets are characterized by **frequent introduction of new products and services, short product life cycles, evolving industry standards, and rapid adoption of technological advancements** by competitors.\n- Many competitors compete primarily through **aggressive pricing and very low-cost structures**, and by **imitating Apple's products and infringing on its intellectual property**.\n\n**Intensity of Competition**\n- Competition has been \"**particularly intense**\" as competitors have **aggressively cut prices and lowered product margins**.\n- Some competitors have **broad product lines, low-priced products, large installed bases of active devices, and large customer bases**.\n- Certain competitors have the **resources, experience, or cost structures to provide products and services at little or no profit or even at a loss**.\n- Competitors seek to **imitate Apple's product features and applications** and are expected to increasingly **imitate Apple's approach of integrating components seamlessly**, or work collaboratively to offer integrated solutions.\n\n**Apple's Market Position**\n- Apple states it has a **\"minority market share\"** in the global **smartphone, personal computer, tablet, and wearables markets**.\n- Some of these markets have **\"from time to time experienced little to no growth or contracted overall.\"**\n\n**Key Competitive Factors**\nApple identifies principal competitive factors as:\n- Price\n- Product and service features (including security features)\n- Relative price and performance\n- Product and service quality and reliability\n- Design and technology innovation\n- A strong third-party software and accessories ecosystem\n- Marketing and distribution capability\n- Service and support\n- Corporate reputation\n- Ability to effectively protect and enforce intellectual property rights\n\n**Named Competitor Platforms**\nThe excerpts mention specific competing platforms: **Android** (smartphones/tablets), **Windows** (PCs/tablets), and **PlayStation, Nintendo, and Xbox** (gaming platforms).\n\n**Risk to Business**\nApple explicitly warns that **\"if the Company is unable to compete successfully, its business, reputation, results of operations, financial condition and stock price can be materially adversely affected.\"** It also notes that its minority market share can make third-party developers **less inclined** to develop or upgrade software for Apple's products, favoring competitors with larger market share instead.",
+        "category": "risk_factors",
+        "difficulty": "medium",
+        "scores": {
+            "groundedness": 0.95,
+            "relevance": 1.0,
+            "correctness": 1.0,
+            "overall": 0.98,
+            "reasoning": "The actual answer comprehensively covers and expands on the expected answer's core points (highly competitive markets, frequent product introductions, rapid technological change, competitors with significant resources) while adding well-organized, plausible details typical of Apple's 10-K risk factors section. All content aligns with standard Apple filing language and is directly relevant to the question. Minor uncertainty on unverifiable specifics like exact quoted phrases, but overall consistent with known disclosures."
+        },
+        "passed": true
+    }
+]
